@@ -5,25 +5,28 @@
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-      <!-- Navbar -->
+
+    <!-- Navbar -->
     <div class="navbar">
         <div class="logo">MyWebsite</div>
         <div class="nav-links">
-            <a href="#loginModal">Login</a>
-            <a href="#registerModal">Register</a>
+            <a href="login-form.html">Login</a>
+            <a href="register-form.html">Register</a>
         </div>
     </div>
 
-<!-- Forgot Modal -->
-    <div class="modal" id="forgotModal">
+    <!-- Forgot Modal -->
+    <div class="modal">
         <div class="modal-content">
             <a href="../index.html" class="close">&times;</a>
             <h2>Forgot Password</h2>
-            <input type="email" placeholder="Enter your registered Email">
-            <button>Send Reset Link</button>
+
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your registered Email" required>
+                <button type="submit">Send Reset Link</button>
+            </form>
 
             <div class="extra-links">
-            
                 <a href="reset-from.html">Already have reset link?</a><br>
                 <a href="login-form.html">Back to Login</a>
             </div>
