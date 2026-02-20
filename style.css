@@ -1,0 +1,101 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #222;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .nav-links a:hover {
+            color: #00c3ff;
+        }
+
+        /* Home Content */
+        .content {
+            text-align: center;
+            padding: 100px;
+        }
+
+        /* Modal Background */
+        .modal {
+            display: flex;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+        /* Modal Box */
+        .modal-content {
+            background: white;
+            padding: 30px;
+            width: 320px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .modal-content input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .modal-content button {
+            width: 100%;
+            padding: 10px;
+            background: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .modal-content button:hover {
+            background: #00c3ff;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .extra-links {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .extra-links a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .extra-links a:hover {
+            text-decoration: underline;
+        }
+
